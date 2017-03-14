@@ -1,0 +1,535 @@
+* {
+    box-sizing: border-box;
+}
+body,html {
+    background: #fff;
+}
+.top {
+    height: 60px;
+    background: #49cb4d;
+    padding: 15px 10px;
+    position: relative;
+}
+.top a {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    position: absolute;
+}
+.top a i {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    width: 20px;
+    color: #fff;
+    font-size: 20px;
+}
+.top a em {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    color: #fff;
+    padding: 0 5px;
+}
+.top p {
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    padding: 0 65px;
+}
+.top b {
+    float: right;
+    height: 26px;
+    line-height: 26px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    text-align: center;
+    overflow: hidden;
+    color: #fff;
+    font-size: 22px;
+    position: absolute;
+    right: 12px;
+    top: 17px;
+}
+.introduction {
+    overflow: hidden;
+}
+.banner {
+    width: 100%;
+    overflow: hidden;
+}
+.introduction dl {
+    padding: 10px 10px 0 10px;
+    overflow: hidden;
+}
+.introduction dl dt {
+    overflow: hidden;
+    border-bottom: 1px solid #efefef;
+}
+.introduction dl dt em {
+    float: left;
+    line-height: 30px;
+    font-size: 15px;
+    color: #333;
+    font-weight: bold;
+}
+.introduction dl dt i {
+    float: right;
+    line-height: 30px;
+    color: #666;
+}
+.introduction dl dt i:before {
+    float: left;
+    content: '';
+    height: 20px;
+    width: 20px;
+    margin: 4px;
+    background: url("../images/icon/icon_weekend.png") no-repeat center;
+}
+.introduction dl dt span {
+    float: left;
+    line-height: 30px;
+    width: 100%;
+    font-size: 12px;
+    color: #666;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.introduction dl dt span:before {
+    float: left;
+    content: '';
+    height: 15px;
+    width: 12px;
+    margin:7px 4px 0 0;
+    background: url("../images/icon/icon_location.png") no-repeat center/cover;
+}
+.introduction dl dd {
+    overflow: hidden;
+    padding: 10px 0;
+    border-bottom: 1px solid #efefef;
+}
+.introduction dl dd p {
+    line-height: 18px;
+    color: #666;
+}
+.see_all {
+    display: block;
+    padding:5px 0 5px 0;
+    height: 30px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 12px;
+    color: #999;
+    border-bottom: 1px solid #e5e5e5;
+}
+.custom_package {
+    margin-top: 10px;
+    padding: 10px;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    overflow: hidden;
+}
+.custom_package_head {
+    height: 30px;
+    padding: 3px 0 7px 0;
+    border-bottom: 1px solid #efefef;
+    margin-bottom: 10px;
+}
+.custom_package_head em {
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    font-size: 15px;
+    color: #333;
+}
+.custom_package_head a {
+    float: right;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    color: #999;
+}
+.custom_package_cont {
+    overflow: hidden;
+}
+.custom_package_cont_left {
+    float: left;
+    width: 50%;
+}
+.custom_package_cont_left dl {
+    margin-right: 5px;
+}
+.custom_package_cont_left dl dt {
+    position: relative;
+}
+.custom_package_cont_left dl dt a {
+    width: 100%;
+    overflow: hidden;
+}
+.custom_package_cont_left dl dt span {
+    display: block;
+    height: 26px;
+    background: rgba(0,0,0,.3);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 3px 2px;
+    color: #fff;
+    font-size: 14px;
+}
+.custom_package_cont_left dl dt span em {
+    float: left;
+}
+.custom_package_cont_left dl dt span b {
+    float: right;
+    height: 20px;
+    color: #fff;
+    font-size: 12px;
+    padding-top: 6px;
+}
+.custom_package_cont_left dl dt span em i {
+    font-size: 12px;
+}
+.custom_package_cont_left dl dd {
+    padding: 8px;
+    border: 1px solid #e6e6e6;
+}
+.custom_package_cont_left dl dd em{
+    display: block;
+    overflow: hidden;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    color: #4d4d4d;
+}
+.custom_package_cont_left dl dd em i{
+    float: left;
+    font-size: 18px;
+    color: #1eb43a;
+}
+.custom_package_cont_left dl dd p {
+    height: 20px;
+    line-height: 20px;
+    color: #666;
+    font-size: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.custom_package_cont_left dl dd b {
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    color: #666;
+    font-size: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.custom_package_cont_left dl dd b:before {
+    float: left;
+    content: '';
+    height: 14px;
+    width: 14px;
+    margin-top: 3px;
+    background: url("../images/icon/icon_weekend.png") no-repeat center/cover;
+}
+
+.custom_package_cont_right {
+    float: left;
+    width: 50%;
+}
+.custom_package_cont_right dl {
+    margin-left: 5px;
+}
+.custom_package_cont_right dl dt {
+    position: relative;
+}
+.custom_package_cont_right dl dt a {
+    width: 100%;
+    overflow: hidden;
+}
+.custom_package_cont_right dl dt span {
+    display: block;
+    height: 26px;
+    background: rgba(0,0,0,.3);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 3px 2px;
+    color: #fff;
+    font-size: 14px;
+}
+.custom_package_cont_right dl dt span em {
+    float: left;
+}
+.custom_package_cont_right dl dt span b {
+    float: right;
+    height: 20px;
+    color: #fff;
+    font-size: 12px;
+    padding-top: 6px;
+}
+.custom_package_cont_right dl dt span em i {
+    font-size: 12px;
+}
+.custom_package_cont_right dl dd {
+    padding: 8px;
+    border: 1px solid #e6e6e6;
+}
+.custom_package_cont_right dl dd em{
+    display: block;
+    overflow: hidden;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    color: #4d4d4d;
+}
+.custom_package_cont_right dl dd em i{
+    float: left;
+    font-size: 18px;
+    color: #1eb43a;
+}
+.custom_package_cont_right dl dd p {
+    height: 20px;
+    line-height: 20px;
+    color: #666;
+    font-size: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.custom_package_cont_right dl dd b {
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    color: #666;
+    font-size: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.custom_package_cont_right dl dd b:before {
+    float: left;
+    content: '';
+    height: 14px;
+    width: 14px;
+    margin-top: 3px;
+    background: url("../images/icon/icon_weekend.png") no-repeat center/cover;
+}
+
+/*热门活动*/
+.hot_activities {
+	overflow: hidden;
+	margin-top: 5px;
+	border-top: 1px solid #e6e6e6;
+	border-bottom: 1px solid #e6e6e6;
+	
+}
+.hot_activities_head {
+	height: 40px;
+	line-height: 20px;
+	padding: 10px 15px;
+	border-bottom: 1px solid #e6e6e6;
+}
+.hot_activities_head span {
+	float: left;
+	font-size: 15px;
+	color: #333;
+}
+.hot_activities_head a {
+	float: right;
+	font-size: 12px;
+	color: #999;
+}
+.hot_activities_cont {
+	overflow: hidden;
+	padding: 10px;
+}
+.hot_activities_cont span {
+	float: left;
+	height: 80px;
+	width: 80px;
+}
+.hot_activities_cont span img {}
+.hot_activities_cont dl {
+	overflow: hidden;
+	margin-left: 90px;
+}
+.hot_activities_cont dl dt {
+	line-height: 20px;
+	font-size: 13px;
+	color: #333;
+}
+.hot_activities_cont dl dd {
+	line-height: 18px;
+	font-size: 12px;
+	color: #999;
+}
+
+.organic_ingredients {
+	overflow: hidden;
+	margin-top: 5px;
+	border-top: 1px solid #e6e6e6;
+	border-bottom: 1px solid #e6e6e6;
+}
+.organic_ingredients_head {
+	height: 40px;
+	line-height: 20px;
+	padding: 10px 15px;
+	border-bottom: 1px solid #e6e6e6;
+}
+.organic_ingredients_head span {
+	float: left;
+	font-size: 15px;
+	color: #333;
+}
+.organic_ingredients_head a {
+	float: right;
+	font-size: 12px;
+	color: #999;
+}
+.organic_ingredients_cont {
+	overflow: hidden;
+	padding: 10px;
+}
+.organic_ingredients_cont a:nth-child(1) {
+	overflow: hidden;
+	float: left;
+	width: 48%;
+	margin-right: 2%;
+	border: 1px solid #e6e6e6;
+}
+.organic_ingredients_cont a:nth-child(2) {
+	overflow: hidden;
+	float: left;
+	width: 48%;
+	margin-left: 2%;
+	border: 1px solid #e6e6e6;
+}
+.organic_ingredients_cont a img {}
+.organic_ingredients_cont a span {
+	overflow: hidden;
+	display: block;
+	padding: 6px;
+}
+.organic_ingredients_cont a span em {
+	display: block;
+	height:30px;
+	line-height: 30px;
+}
+
+.organic_ingredients_cont a span em strong {
+	display: block;
+	float: left;
+	font-size: 12px;
+	color: #000;
+}
+.organic_ingredients_cont a span em dfn {
+	float: right;
+	font-size: 12px;
+	color: #4d4d4d;
+}
+.organic_ingredients_cont a span em dfn {
+	font-size: 15px;
+	color: #1eb43a;	
+}
+.organic_ingredients_cont a span b {
+	display: block;
+	height:24px;
+	line-height: 24px;
+}
+.organic_ingredients_cont a span b strong:before {
+	float: left;
+	content: "";
+	height: 16px;
+	width: 16px;
+	margin: 4px 0;
+	background: url(../images/home_page/icon_weekend.png) no-repeat center / cover;
+}
+.organic_ingredients_cont a span b strong {
+	float: left;
+	font-size: 12px;
+	color: #666;
+}
+.organic_ingredients_cont a span b dfn {
+	float: right;
+	font-size: 12px;
+	color: #666;
+}
+
+.user_evaluation {
+	overflow: hidden;
+	margin-top: 5px;
+	border-top: 1px solid #e6e6e6;
+	border-bottom: 1px solid #e6e6e6;
+}
+.user_evaluation_head {
+	height: 40px;
+	line-height: 20px;
+	padding: 10px 15px;
+	border-bottom: 1px solid #e6e6e6;
+	font-size: 15px;
+	color: #333;
+}
+.user_evaluation_cont {
+	overflow: hidden;
+	padding: 10px 15px;
+	padding-bottom: 35px;
+	position:relative;
+}
+.user_evaluation_cont ul {
+	overflow: hidden;
+}
+.user_evaluation_cont ul li {
+	overflow: hidden;
+	margin: 5px 0;
+	border-bottom: 1px solid #e6e6e6;
+	display: none;
+}
+.user_evaluation_cont ul li.curr {
+	display: block;
+}
+.user_evaluation_cont ul li p {
+	line-height: 20px;
+	font-size: 13px;
+	color: #575656;
+}
+.user_evaluation_cont ul li span {
+	line-height: 20px;
+	font-size: 12px;
+	color: #949392;
+}
+.user_evaluation_cont ul li span em {
+	float: left;
+}
+.user_evaluation_cont ul li span i {
+	float: right;
+}
+.user_evaluation_cont a {
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	font-size: 13px;
+	text-align: center;
+	border-top: 1px solid #E6E6E6;
+	border-bottom: 1px solid #E6E6E6;
+	background: #fff;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	
+}
+
+
+
+
+

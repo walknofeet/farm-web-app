@@ -1,0 +1,254 @@
+@charset "utf-8";
+/* CSS Document */
+.top {
+	height:50px;
+	overflow:hidden;
+	background:#33cc66;
+	padding:0 50px;
+	text-align:center;
+	position:relative;
+	border-bottom:1px solid #66cc66;
+}
+.top h2 {
+	color:#fff;
+	height:50px;
+	line-height:50px;
+	font-weight:400;
+	font-size:20px;
+}
+.back {
+	display:block;
+	height:50px;
+	line-height:50px;
+	position:absolute;
+	left:0;
+	top:0;
+	background:url("../images/icon/icon_arrow.png") no-repeat 5px center / 15px auto;
+	padding-left:25px;
+	font-size:16px;
+	color:#fff;
+}
+.user {
+	display:block;
+	height:50px;
+	width:50px;
+	background:url("../images/icon/user.png") no-repeat center / 30px auto;
+	position:absolute;
+	right:0;
+	top:0;
+}
+.nav {
+	height:48px;
+	background:#33cc66;
+	padding:0 10px;
+}
+.nav p {
+	float:left;
+	width:33%;
+	position:relative;
+}
+.nav p a {
+	display:block;
+	height:48px;
+	line-height:48px;
+	text-align:center;
+	background:url("../images/icon/icon_arrowdown.png") no-repeat right center / 15px auto;
+	color:#fff;
+	font-size:18px;
+}
+.nav p span {
+	display:none;
+	position:absolute;
+	top:48px;
+	left:0;
+	right:0;
+	z-index:999;
+	background:#33cc66;
+}
+.nav p span em {
+	color:#fff;
+	font-size:18px;
+	display:block;
+	height:48px;
+	line-height:48px;
+	text-align:center;
+	border-bottom:1px solid #ccc;
+}
+.nav p span i {
+	display:none;
+	color:#fff;
+	font-size:18px;
+	display:block;
+	height:48px;
+	line-height:48px;
+	text-align:center;
+	border-bottom:1px solid #ccc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nav p a:hover,.nav p a.active  {
+	border-bottom:4px solid #f8e098;
+	height:40px;
+	margin-top:4px;
+	line-height:40px;
+}
+.order {
+	height:30px;
+	background:#f0f0f0;
+	overflow:hidden;
+}
+.order ul {
+	overflow:hidden;
+
+}
+.order ul li {
+	float:left;
+	width:20%;
+	text-align:center;
+	overflow:hidden;
+}
+.order ul li a {
+	display:inline-block;
+	height:20px;
+	line-height:20px;
+	padding:0 8px;
+	margin:5px 0;
+	background:#fff;
+	text-align:center;
+}
+.order ul li a.curr, .order ul li a:hover {
+	background:#1eb43a;
+	color:#fff;
+}
+.main {
+	overflow:hidden;
+	padding:5px;
+	color:#666;
+	background:#fff;
+}
+.main_list {
+	width:50%;
+	overflow:hidden;
+	float:left;
+	padding:5px;
+	box-sizing:border-box;
+	
+}
+.main_list a {
+	position:relative;
+	display:block;
+	
+}
+.main_list a img {
+	width:100%;
+	border:1px solid #e6e6e6;
+	box-sizing:border-box;
+}
+.main_list a span {
+	display:block;
+	height:24px;
+	line-height:24px;
+	overflow:hidden;
+	background:#000;
+	opacity:.6;
+	position:absolute;
+	left:0;
+	right:0;
+	bottom:0;
+	z-index:10;
+	color:#fff;
+	padding:0 10px;
+}
+.main_list a em {
+	display:block;
+	height:24px;
+	overflow:hidden;
+	background:#000;
+	opacity:.4;
+	position:absolute;
+	left:1px;
+	right:1px;
+	bottom:0;
+	z-index:9;
+}
+.main_list ul {
+	overflow:hidden;
+	padding:5px;
+	border:1px solid #e6e6e6;
+	border-top:none;
+	box-sizing:border-box;
+}
+.main_list ul li {
+	overflow:hidden;
+}
+.main_list ul li p{
+	font-size:13px;
+	color:#666;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	height:20px;
+	line-height:20px;
+}
+.main_list ul li i {
+	display:block;
+	color:#666;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	height:20px;
+	line-height:20px;
+	padding-left:18px;
+	background:url("../images/icon/icon_weekend.png") no-repeat left center / 15px auto;
+}
+.main_list ul li strong {
+	float:left;
+	height:20px;
+	line-height:20px;
+	font-size:13px;
+}
+.main_list ul li strong em {
+	color:#33cc33;
+	font-size:18px;
+
+}
+.main_list ul li b {
+	float:right;
+	height:20px;
+	line-height:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

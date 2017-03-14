@@ -1,0 +1,88 @@
+/*页面头部@Start*/
+
+.top {
+	height: 1rem;
+	background: #49cb4d;
+	position: relative;
+	border-bottom: 1px solid #59cf5d;
+	box-sizing: border-box;
+}
+
+.top h2 {
+	color: #fff;
+	height: 1rem;
+	line-height: 1rem;
+	font-weight: 400;
+	font-size: .4rem;
+	text-align: center;
+}
+
+.back {
+	display: block;
+	height: 1rem;
+	line-height: 1rem;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: url("../images/icon/icon_arrow.png") no-repeat .1rem center / .3rem auto;
+	padding-left: .5rem;
+	font-size: .35rem;
+	color: #fff;
+}
+
+.user {
+	display: block;
+	height: 1rem;
+	width: 1rem;
+	background: url("../images/icon/user.png") no-repeat center / .6rem auto;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+
+/*页面头部@End*/
+
+
+/*页面导航@Start*/
+
+.nav {
+	height: 1rem;
+	width: 100%;
+	overflow: hidden;
+	background: #49cb4d;
+}
+
+.nav a {
+	float: left;
+	height: 1rem;
+	width: 33.3333333%;
+	font-size: .327rem;
+	color: #fff;
+	line-height: 1rem;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.nav a.curr {
+	border-bottom: .04rem solid #f8e098;
+}
+
+
+/*页面导航@End*/
+
+
+/*页面主要信息@Start*/
+
+.main {
+	overflow: hidden;
+}
+
+.main a {
+	overflow: hidden;
+	display: block;
+	margin-top: .2rem;
+}
+
+
+/*页面主要信息@End*/

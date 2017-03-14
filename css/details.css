@@ -1,0 +1,258 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background:#fff;
+}
+
+.footer {
+	position:fixed;
+	left:0;
+	right:0;
+	bottom:0;
+	height:42px;
+	
+}
+.add {
+	float:left;
+	width:50%;
+	background:#eabc33;
+	height:42px;
+	font-size:15px;
+	line-height:42px;
+	text-align:center;
+	color:#fff;
+}
+.order_now {
+	float:right;
+	width:50%;
+	background:#49cb4d;
+	height:42px;
+	font-size:15px;
+	line-height:42px;
+	text-align:center;
+	color:#fff;
+}
+.header {
+	overflow:hidden;
+}
+.banner {
+	display:block;
+	position:absolote;
+	top:0;
+	left:0;
+	right:0;
+	z-index:1;
+}
+.back {
+	display:block;
+	height:50px;
+	line-height:50px;
+	position:absolute;
+	left:0;
+	top:0;
+	background:url("../images/icon/icon_arrow.png") no-repeat 10px center / 13px auto;
+	padding-left:30px;
+	font-size:16px;
+	color:#fff;
+	z-index:9;
+}
+.shop_cart {
+	display:block;
+	height:50px;
+	width:30px;
+	position:absolute;
+	right:10px;
+	top:0;
+	background:url("../images/icon/details_shopcart.png") no-repeat right center / 28px auto;
+	z-index:9;
+}
+.main {
+	overflow:hidden;
+	margin-bottom:42px;
+}
+.details {
+	overflow:hidden;
+	padding:10px;
+	border-bottom:1px solid #eee;
+}
+.details span {
+	display:block;
+	overflow:hidden;
+}
+.details span p {
+	float:left;
+	font-size:15px;
+	color:#565656;
+	font-weight:600;
+	height:25px;
+	line-height:25px;
+}
+.details span em {
+	float:right;
+	font-size:12px;
+	color:#666;
+	height:25px;
+	line-height:25px;
+	background:url("../images/icon/icon_weekend.png") no-repeat left center / 16px auto;	
+	padding-left:20px;
+}
+.details a {
+	display:block;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	font-size:12px;
+	color:#666;
+	height:25px;
+	line-height:25px;
+	background:url("../images/icon/icon_location.png") no-repeat left center / 14px auto;
+	padding-left:18px;
+}
+.price {
+	overflow:hidden;
+	padding:10px;
+	border-bottom:1px solid #eee;
+}
+.price strong {
+	float:left;
+	font-size:12px;
+	color:#666;
+	height:25px;
+	line-height:25px;
+}
+.price strong b {
+	float:left;
+	font-size:18px;
+	color:#49cb4d;
+	height:25px;
+	line-height:25px;
+	padding-right:5px;
+}
+
+.price em {
+	float:right;
+	font-size:12px;
+	color:#949392;
+	height:25px;
+	line-height:25px;
+}
+.select_standard {
+	overflow:hidden;
+	margin:10px 0;
+	border-bottom:1px solid #eee;
+	border-top:1px solid #eee;
+}
+.select_standard a {
+	display:block;
+	height:40px;
+	line-height:40px;
+	color:#575656;
+	font-size:14px;
+	margin:0 10px;
+	background:url("../images/icon/icon_arrowright.png") no-repeat right center / 14px auto;
+}
+.evaluate {
+	overflow:hidden;
+	padding:10px 10px 0;
+	border-bottom:1px solid #eee;
+	border-top:1px solid #eee;
+}
+.evaluate dt {
+	overflow:hidden;
+
+}
+.evaluate dt a {
+	display:block;
+	height:34px;
+	line-height:34px;
+	color:#575656;
+	font-size:14px;
+}
+.evaluate dd {
+	overflow:hidden;
+	border-bottom:1px solid #eee;
+	border-top:1px solid #eee;
+}
+.evaluate dd p {
+	line-height:24px;
+	color:#575656;
+	font-size:12px;
+}
+.evaluate dd span {
+	display:block;
+}
+.evaluate dd span a,em {
+	float:left;
+	height:30px;
+	line-height:30px;
+	font-size:12px;
+	color:#949392;
+}
+.evaluate dd span em {
+	float:right;
+}
+.see_all {
+	display:block;
+	height:30px;
+	line-height:30px;
+	color:#666;
+	text-align:center;
+}
+.product_details {
+	overflow:hidden;
+	margin:10px 0 0;
+	border-bottom:1px solid #eee;
+	border-top:1px solid #eee;
+}
+.product_details a {
+	display:block;
+	height:40px;
+	line-height:40px;
+	color:#575656;
+	font-size:14px;
+	margin:0 10px;
+	background:url("../images/icon/icon_arrowright.png") no-repeat right center / 14px auto;
+}
+.product_details a i {
+	color:#949392;
+	font-size:12px;
+}
+.recommend {
+	overflow:hidden;
+	padding:10px;
+}
+.more_recommend {
+	display:block;
+	height:34px;
+	line-height:34px;
+	color:#575656;
+	font-size:14px;
+}
+.recommend ul {
+	overflow:hidden;
+
+}
+.recommend ul li {
+	float:left;
+	overflow:hidden;
+	width:33%;
+}
+.recommend ul li a {
+	float:left;
+	padding:5px;
+}
+.recommend ul li a img {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

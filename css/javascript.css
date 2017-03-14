@@ -1,0 +1,31 @@
+body {
+    position: relative;
+}
+.box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0,0,0,.5);
+    filter: alpha(opacity:50);
+}
+.loading {
+    height: 96px;
+    width: 96px;
+    background: url("../images/loading.png");
+    animation: loading 1s linear infinite;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin: -48px 0 0 -48px;
+    z-index: 9999999;
+}
+@keyframes loading {
+    from {
+        transform: rotate(0deg);
+    }
+    to   {
+        transform: rotate(360deg);
+    }
+}

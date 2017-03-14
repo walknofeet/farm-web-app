@@ -1,0 +1,207 @@
+html,
+body {
+	background: #fff;
+}
+
+
+/*页面头部@Start*/
+
+.top {
+	height: 1rem;
+	background: #49cb4d;
+	position: relative;
+	border-bottom: 1px solid #59cf5d;
+	box-sizing: border-box;
+}
+
+.top h2 {
+	color: #fff;
+	height: 1rem;
+	line-height: 1rem;
+	font-weight: 400;
+	font-size: .4rem;
+	text-align: center;
+}
+
+.back {
+	display: block;
+	height: 1rem;
+	line-height: 1rem;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: url("../images/icon/icon_arrow.png") no-repeat .1rem center / .3rem auto;
+	padding-left: .5rem;
+	font-size: .35rem;
+	color: #fff;
+}
+
+.user {
+	display: block;
+	height: 1rem;
+	width: 1rem;
+	background: url("../images/icon/user.png") no-repeat center / .6rem auto;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+
+/*页面头部@End*/
+
+
+/*页面导航@Start*/
+
+.nav {
+	height: 1rem;
+	width: 100%;
+	overflow: hidden;
+	background: #49cb4d;
+}
+
+.nav a {
+	float: left;
+	height: 1rem;
+	width: 33.3333333%;
+	font-size: .327rem;
+	color: #fff;
+	line-height: 1rem;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.nav a.curr {
+	border-bottom: .04rem solid #f8e098;
+}
+
+
+/*页面导航@End*/
+
+
+/*页面主体@Start*/
+
+.main {
+	overflow: hidden;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.main div {
+	overflow: hidden;
+	position: relative;
+}
+
+.main div dl {
+	overflow: hidden;
+	padding: .288rem;
+	padding-left: .888rem;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.main div dl dt {
+	overflow: hidden;
+	height: .58rem;
+}
+
+.user_img {
+	height: .38rem;
+	width: .38rem;
+	position: absolute;
+	top: .36rem;
+	left: .288rem;
+}
+
+.main div dl dt em {
+	float: left;
+	font-size: .3rem;
+	color: #222;
+	margin-right: .1rem;
+	line-height: .58rem;
+}
+
+.main div dl dt i {
+	float: left;
+	font-size: .23rem;
+	color: #999;
+	line-height: .58rem;
+}
+
+.main div dl dt strong {
+	float: right;
+	font-size: .4rem;
+	color: #49cb4d;
+	height: .58rem;
+}
+
+.main div dl dt strong b {
+	font-size: .23rem;
+	color: #666;
+}
+
+.main div dl dt strong small {
+	font-size: .23rem;
+}
+
+.main div dl dd {
+	overflow: hidden;
+	color: #666;
+}
+
+.main div dl dd p {
+	line-height: .38rem;
+}
+.main div span {
+	display: block;
+	overflow: hidden;
+	box-sizing: border-box;
+	padding: .2rem;
+	
+}
+.main div span strong {
+	overflow: hidden;
+	line-height: .5rem;
+	float: left;
+	width: 2rem;
+}
+.main div span strong em {
+	display: block;
+	height: .5rem;
+	line-height: .5rem;
+	font-size: .25rem;
+	color: #222;
+	position: relative;
+}
+.main div span strong em dfn {
+	float: right;
+	content: "";
+	height: .1rem;
+	width: .1rem;
+	background: url(../images/custom/arrow_dowm.jpg) no-repeat left center / contain;
+	position: absolute;
+	left: .6rem;
+	top: .2rem;
+	transform-origin: .05rem .04rem;
+	transition: transform .5s ;
+}
+
+.main div span strong b {
+	display: none;
+}
+.main div span strong i {
+	display: block;
+	line-height: .35rem;
+}
+.main div span a {
+	float: right;
+	height: .5rem;
+	line-height: .5rem;
+	width: 2rem;
+	text-align: center;
+	color: #fff;
+	box-sizing: border-box;
+	font-size: .25rem;
+	background: #089a23;	
+	border: 1px inset #089a23;
+}
+
+
+/*页面主体@End*/

@@ -1,0 +1,177 @@
+/*页面头部@Start*/
+
+.top {
+	height: 1rem;
+	background: #49cb4d;
+	position: relative;
+	border-bottom: 1px solid #59cf5d;
+	box-sizing: border-box;
+}
+
+.top h2 {
+	color: #fff;
+	height: 1rem;
+	line-height: 1rem;
+	font-weight: 400;
+	font-size: .4rem;
+	text-align: center;
+}
+
+.back {
+	display: block;
+	height: 1rem;
+	line-height: 1rem;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: url("../images/icon/icon_arrow.png") no-repeat .1rem center / .3rem auto;
+	padding-left: .5rem;
+	font-size: .35rem;
+	color: #fff;
+}
+
+.user {
+	display: block;
+	height: 1rem;
+	width: 1rem;
+	background: url("../images/icon/user.png") no-repeat center / .6rem auto;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+
+/*页面头部@End*/
+
+
+/*页面主体@Start*/
+.main {
+	overflow: hidden;
+	padding: .2rem;
+}
+.main ul {
+	overflow: hidden;
+}
+.main ul li {
+	overflow: auto;
+	margin-bottom: .2rem;
+	position: relative;
+}
+.img {
+	
+	display: block;
+	overflow: hidden;
+}
+.img img {}
+.main span {
+	display: block;
+	height: .9rem;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(255,255,255,.6);
+}
+.main span p {
+	height: .4rem;
+	line-height: .4rem;
+	padding: .05rem .2rem;
+}
+.main span p em {
+	float: left;
+	font-size: .25rem;
+	color: #222;
+	margin-right:.1rem ;
+}
+.main span p i {
+	float: left;
+	font-size: .23rem;
+	color: #222;
+}
+.main span p b {
+	float: right;
+}
+.main span p b a.invite {
+	float: left;
+	height: .38rem;
+	width: 1.15rem;
+	box-sizing: border-box;
+	border: 1px solid #1eb43a;
+	background: #f0fdf3;
+	font-size: .23rem;
+	color: #1eb43a;
+	text-align: center;
+	line-height: .38rem;
+	margin: 0 .05rem;
+}
+.main span p b a.join {
+	float: left;
+	height: .38rem;
+	width: 1.15rem;
+	box-sizing: border-box;
+	border: 1px solid #1eb43a;
+	background: #1eb43a;
+	font-size: .23rem;
+	color: #fff;
+	text-align: center;
+	line-height: .38rem;
+	margin: 0 .05rem;
+}
+.main span strong {
+	display: block;
+	height: .4rem;
+	line-height: .4rem;
+	padding: 0 .2rem;
+	box-sizing: border-box;
+}
+.main span strong em:before {
+	float: left;
+	content: "";
+	height: .26rem;
+	width: .26rem;
+	margin-top: .04rem;
+	background: url(../images/icon/icon_weekend.png) no-repeat left center / contain;
+	margin-right: .02rem;
+}
+.main span strong em {
+	float: left;
+	color: #444;
+	font-size: .23rem;
+	margin-right: .2rem;
+}
+.main span strong i:before {
+	float: left;
+	content: "";
+	height: .26rem;
+	width: .26rem;
+	margin-top: .05rem;
+	background: url(../images/farm_list/location_icon.png) no-repeat left center / contain;
+}
+.main span strong i {
+	float: left;
+	color: #444;
+	font-size: .23rem;
+	width: 4.8rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.main li dfn {
+	display: block;
+	height: .25rem;
+	width: .25rem;
+	position: absolute;
+	right: .3rem;
+	top: .3rem;
+	z-index: 99;
+}
+/*页面主体@End*/
+
+
+
+
+
+
+
+
